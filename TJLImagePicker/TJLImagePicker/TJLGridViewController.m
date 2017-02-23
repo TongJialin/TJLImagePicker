@@ -187,7 +187,7 @@ static CGSize kCollectionPhotoItemSize;
     if (!_assetsFetchResults) {
         PHFetchOptions *options = [[PHFetchOptions alloc] init];
         options.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:YES]];
-        _assetsFetchResults = [PHAsset fetchAssetsWithOptions:options];
+        _assetsFetchResults = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:nil];
     }
     return _assetsFetchResults;
 }
