@@ -67,4 +67,13 @@
     }
 }
 
+- (void)reduceCheckImage {
+    self.imageSelected = NO;
+    self.checkImageView.image = [UIImage imageNamed:@"grey"];
+    
+    if ([self.delegate respondsToSelector:@selector(didDeselectItemAssetsViewCell:)]) {
+        [self.delegate didDeselectItemAssetsViewCell:self];
+    }
+}
+
 @end

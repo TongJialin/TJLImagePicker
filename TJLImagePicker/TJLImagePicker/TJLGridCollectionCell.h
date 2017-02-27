@@ -34,4 +34,6 @@
 
 + (NSString *)cellIdentifier;
 
+- (void)reduceCheckImage;
+
 @end
