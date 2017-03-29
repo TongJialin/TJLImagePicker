@@ -110,6 +110,16 @@ static CGSize kCollectionPhotoItemSize;
         cell.gridImageView.image = result;
     }];
     
+    [self.selectIndexArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSNumber *index = (NSNumber *)obj;
+        if ([index isEqual:@(indexPath.item)]) {
+            cell.checkImageView.image = [UIImage imageNamed:@"green"];
+            *stop = YES;
+        } else {
+            cell.checkImageView.image = [UIImage imageNamed:@"grey"];
+        }
+    }];
+    
     return cell;
 }
 
