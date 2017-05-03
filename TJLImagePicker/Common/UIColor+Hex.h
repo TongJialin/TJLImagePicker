@@ -2,7 +2,7 @@
 //  UIColor+Hex.h
 //  Pods
 //
-//  Created by oma_wangxianzheng on 16/7/24.
+//  Created by TongJialin on 16/7/24.
 //
 //
 

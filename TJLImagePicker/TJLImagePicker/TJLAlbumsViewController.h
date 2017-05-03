@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OMABaseViewController.h"
+#import "TJLBaseViewController.h"
 
-@interface TJLAlbumsViewController : OMABaseViewController
+@interface TJLAlbumsViewController : TJLBaseViewController
 
 @end

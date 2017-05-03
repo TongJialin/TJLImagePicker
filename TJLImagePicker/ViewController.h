@@ -6,9 +6,9 @@
 //  Copyright © 2017年 com.oma.matec. All rights reserved.
 //
 
-#import "OMABaseViewController.h"
+#import "TJLBaseViewController.h"
 
-@interface ViewController : OMABaseViewController
+@interface ViewController : TJLBaseViewController
 
 
 @end

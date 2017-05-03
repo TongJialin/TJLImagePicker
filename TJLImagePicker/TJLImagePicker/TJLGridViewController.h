@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OMABaseViewController.h"
+#import "TJLBaseViewController.h"
 #import <Photos/Photos.h>
 
-@interface TJLGridViewController : OMABaseViewController
+@interface TJLGridViewController : TJLBaseViewController
 
 @property (strong, nonatomic) NSString *navTitle;
 

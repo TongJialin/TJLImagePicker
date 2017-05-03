@@ -1,18 +1,18 @@
 //
-//  OMABaseViewController.m
+//  TJLBaseViewController.m
 //  Pods
 //
-//  Created by oma_wangxianzheng on 16/7/31.
+//  Created by TongJialin on 16/7/31.
 //
 //
 
-#import "OMABaseViewController.h"
+#import "TJLBaseViewController.h"
 
-@interface OMABaseViewController ()
+@interface TJLBaseViewController ()
 
 @end
 
-@implementation OMABaseViewController
+@implementation TJLBaseViewController
 
 
 - (void)viewDidLoad {

@@ -11,7 +11,7 @@
 		92051F581E55579E0042C263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F571E55579E0042C263 /* AppDelegate.m */; };
 		92051F601E55579E0042C263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92051F5F1E55579E0042C263 /* Assets.xcassets */; };
 		92051F631E55579E0042C263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92051F611E55579E0042C263 /* LaunchScreen.storyboard */; };
-		92051F6F1E5558050042C263 /* OMABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F6C1E5558050042C263 /* OMABaseViewController.m */; };
+		92051F6F1E5558050042C263 /* TJLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F6C1E5558050042C263 /* TJLBaseViewController.m */; };
 		92051F701E5558050042C263 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F6E1E5558050042C263 /* UIColor+Hex.m */; };
 		92051F961E5559380042C263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F951E5559380042C263 /* ViewController.m */; };
 		92051FAD1E5599FE0042C263 /* TJLActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92051F981E5599FE0042C263 /* TJLActionSheet.bundle */; };
@@ -36,8 +36,8 @@
 		92051F5F1E55579E0042C263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92051F621E55579E0042C263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92051F641E55579E0042C263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92051F6B1E5558050042C263 /* OMABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMABaseViewController.h; sourceTree = "<group>"; };
-		92051F6C1E5558050042C263 /* OMABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMABaseViewController.m; sourceTree = "<group>"; };
+		92051F6B1E5558050042C263 /* TJLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLBaseViewController.h; sourceTree = "<group>"; };
+		92051F6C1E5558050042C263 /* TJLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLBaseViewController.m; sourceTree = "<group>"; };
 		92051F6D1E5558050042C263 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		92051F6E1E5558050042C263 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		92051F931E5559160042C263 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 		92051F6A1E5558050042C263 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				92051F6B1E5558050042C263 /* OMABaseViewController.h */,
-				92051F6C1E5558050042C263 /* OMABaseViewController.m */,
+				92051F6B1E5558050042C263 /* TJLBaseViewController.h */,
+				92051F6C1E5558050042C263 /* TJLBaseViewController.m */,
 				92051F6D1E5558050042C263 /* UIColor+Hex.h */,
 				92051F6E1E5558050042C263 /* UIColor+Hex.m */,
 			);
@@ -242,7 +242,7 @@
 				92051F961E5559380042C263 /* ViewController.m in Sources */,
 				92051FB81E5599FE0042C263 /* TJLPreviewViewController.m in Sources */,
 				92051F701E5558050042C263 /* UIColor+Hex.m in Sources */,
-				92051F6F1E5558050042C263 /* OMABaseViewController.m in Sources */,
+				92051F6F1E5558050042C263 /* TJLBaseViewController.m in Sources */,
 				92051F581E55579E0042C263 /* AppDelegate.m in Sources */,
 				92051FB31E5599FE0042C263 /* TJLCameraViewController.m in Sources */,
 				92051F551E55579E0042C263 /* main.m in Sources */,
