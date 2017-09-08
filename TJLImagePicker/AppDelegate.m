@@ -9,9 +9,6 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-#define WIDTH [[UIScreen mainScreen] bounds].size.width
-#define HEIGHT [[UIScreen mainScreen] bounds].size.height
-
 @interface AppDelegate ()
 
 @end
@@ -30,7 +27,7 @@
     
     nav.viewControllers = @[vc];
     
-    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)];
     self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
