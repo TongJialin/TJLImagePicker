@@ -11,6 +11,9 @@
 #import "TJLAlbumCell.h"
 #import "TJLGridViewController.h"
 
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
 static int kAlbumRowHeight = 56;
 
 @interface TJLAlbumsViewController () <UITableViewDelegate, UITableViewDataSource>

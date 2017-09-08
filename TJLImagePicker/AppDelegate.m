@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
 @interface AppDelegate ()
 
 @end

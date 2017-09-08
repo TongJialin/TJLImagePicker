@@ -7,6 +7,10 @@
 //
 
 #import "TJLBottomEditView.h"
+#import "UIColor+Hex.h"
+
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
 
 @interface TJLBottomEditView ()
 

@@ -9,6 +9,9 @@
 #import "TJLCameraViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
 @interface TJLCameraViewController ()
 
 @property (nonatomic, strong) AVCaptureSession *session;

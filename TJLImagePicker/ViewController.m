@@ -12,6 +12,9 @@
 #import "TJLGridCollectionCell.h"
 #import "TJLCameraViewController.h"
 
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
 static NSInteger kGridItemNumberOfColumns = 4;
 static CGFloat kGridSpace = 4;
 static CGFloat kCollectionItemHeight;
