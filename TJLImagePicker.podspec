@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TJLImagePicker"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "WeChat photo album selection Demo"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ WeChat photo album selection Demo -- TongJialin
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/TongJialin/TJLImagePicker.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/TongJialin/TJLImagePicker.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ WeChat photo album selection Demo -- TongJialin
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TJLImagePicker/**/*.{h,m}"
+  s.source_files  = "TJLImagePicker/TJLImagePicker/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ WeChat photo album selection Demo -- TongJialin
   #
 
   # s.resource  = "icon.png"
-  s.resources = "TJLImagePicker/Resources/*.png"
+s.resources = "TJLImagePicker/Resources/*.{png,xib}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

@@ -11,8 +11,6 @@
 		92051F581E55579E0042C263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F571E55579E0042C263 /* AppDelegate.m */; };
 		92051F601E55579E0042C263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92051F5F1E55579E0042C263 /* Assets.xcassets */; };
 		92051F631E55579E0042C263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92051F611E55579E0042C263 /* LaunchScreen.storyboard */; };
-		92051F6F1E5558050042C263 /* TJLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F6C1E5558050042C263 /* TJLBaseViewController.m */; };
-		92051F701E5558050042C263 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F6E1E5558050042C263 /* UIColor+Hex.m */; };
 		92051F961E5559380042C263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F951E5559380042C263 /* ViewController.m */; };
 		92051FAD1E5599FE0042C263 /* TJLActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92051F981E5599FE0042C263 /* TJLActionSheet.bundle */; };
 		92051FAE1E5599FE0042C263 /* TJLActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F9A1E5599FE0042C263 /* TJLActionSheet.m */; };
@@ -22,7 +20,6 @@
 		92051FB21E5599FE0042C263 /* TJLBottomEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FA11E5599FE0042C263 /* TJLBottomEditView.m */; };
 		92051FB31E5599FE0042C263 /* TJLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FA31E5599FE0042C263 /* TJLCameraViewController.m */; };
 		92051FB41E5599FE0042C263 /* TJLGridCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FA51E5599FE0042C263 /* TJLGridCollectionCell.m */; };
-		92051FB51E5599FE0042C263 /* TJLGridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92051FA61E5599FE0042C263 /* TJLGridCollectionCell.xib */; };
 		92051FB61E5599FE0042C263 /* TJLGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FA81E5599FE0042C263 /* TJLGridViewController.m */; };
 		92051FB71E5599FE0042C263 /* TJLImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FAA1E5599FE0042C263 /* TJLImagePickerController.m */; };
 		92051FB81E5599FE0042C263 /* TJLPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051FAC1E5599FE0042C263 /* TJLPreviewViewController.m */; };
@@ -59,6 +56,9 @@
 		946AC4E71F62773800080D9B /* white_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4C61F62773800080D9B /* white_circle.png */; };
 		946AC4E81F62773800080D9B /* white_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4C71F62773800080D9B /* white_circle@2x.png */; };
 		946AC4E91F62773800080D9B /* white_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4C81F62773800080D9B /* white_circle@3x.png */; };
+		946AC4EE1F62A11D00080D9B /* TJLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946AC4EB1F62A11D00080D9B /* TJLBaseViewController.m */; };
+		946AC4EF1F62A11D00080D9B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 946AC4ED1F62A11D00080D9B /* UIColor+Hex.m */; };
+		946AC4F11F62A28E00080D9B /* TJLGridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,10 +69,6 @@
 		92051F5F1E55579E0042C263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92051F621E55579E0042C263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92051F641E55579E0042C263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92051F6B1E5558050042C263 /* TJLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLBaseViewController.h; sourceTree = "<group>"; };
-		92051F6C1E5558050042C263 /* TJLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLBaseViewController.m; sourceTree = "<group>"; };
-		92051F6D1E5558050042C263 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		92051F6E1E5558050042C263 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		92051F941E5559380042C263 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		92051F951E5559380042C263 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92051F981E5599FE0042C263 /* TJLActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TJLActionSheet.bundle; sourceTree = "<group>"; };
@@ -89,7 +85,6 @@
 		92051FA31E5599FE0042C263 /* TJLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLCameraViewController.m; sourceTree = "<group>"; };
 		92051FA41E5599FE0042C263 /* TJLGridCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLGridCollectionCell.h; sourceTree = "<group>"; };
 		92051FA51E5599FE0042C263 /* TJLGridCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLGridCollectionCell.m; sourceTree = "<group>"; };
-		92051FA61E5599FE0042C263 /* TJLGridCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJLGridCollectionCell.xib; sourceTree = "<group>"; };
 		92051FA71E5599FE0042C263 /* TJLGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLGridViewController.h; sourceTree = "<group>"; };
 		92051FA81E5599FE0042C263 /* TJLGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLGridViewController.m; sourceTree = "<group>"; };
 		92051FA91E5599FE0042C263 /* TJLImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLImagePickerController.h; sourceTree = "<group>"; };
@@ -129,6 +124,11 @@
 		946AC4C61F62773800080D9B /* white_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_circle.png; sourceTree = "<group>"; };
 		946AC4C71F62773800080D9B /* white_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white_circle@2x.png"; sourceTree = "<group>"; };
 		946AC4C81F62773800080D9B /* white_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white_circle@3x.png"; sourceTree = "<group>"; };
+		946AC4EA1F62A11D00080D9B /* TJLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLBaseViewController.h; sourceTree = "<group>"; };
+		946AC4EB1F62A11D00080D9B /* TJLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLBaseViewController.m; sourceTree = "<group>"; };
+		946AC4EC1F62A11D00080D9B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		946AC4ED1F62A11D00080D9B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJLGridCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				946AC4A71F62773800080D9B /* Resources */,
-				92051F6A1E5558050042C263 /* Common */,
 				92051F971E5599FE0042C263 /* TJLImagePicker */,
 				92051F561E55579E0042C263 /* AppDelegate.h */,
 				92051F571E55579E0042C263 /* AppDelegate.m */,
@@ -184,20 +183,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92051F6A1E5558050042C263 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				92051F6B1E5558050042C263 /* TJLBaseViewController.h */,
-				92051F6C1E5558050042C263 /* TJLBaseViewController.m */,
-				92051F6D1E5558050042C263 /* UIColor+Hex.h */,
-				92051F6E1E5558050042C263 /* UIColor+Hex.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		92051F971E5599FE0042C263 /* TJLImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				946AC4EA1F62A11D00080D9B /* TJLBaseViewController.h */,
+				946AC4EB1F62A11D00080D9B /* TJLBaseViewController.m */,
+				946AC4EC1F62A11D00080D9B /* UIColor+Hex.h */,
+				946AC4ED1F62A11D00080D9B /* UIColor+Hex.m */,
 				92051FA91E5599FE0042C263 /* TJLImagePickerController.h */,
 				92051FAA1E5599FE0042C263 /* TJLImagePickerController.m */,
 				92051F9E1E5599FE0042C263 /* TJLAlbumsViewController.h */,
@@ -215,7 +207,6 @@
 				92051FA11E5599FE0042C263 /* TJLBottomEditView.m */,
 				92051FA41E5599FE0042C263 /* TJLGridCollectionCell.h */,
 				92051FA51E5599FE0042C263 /* TJLGridCollectionCell.m */,
-				92051FA61E5599FE0042C263 /* TJLGridCollectionCell.xib */,
 				92051F981E5599FE0042C263 /* TJLActionSheet.bundle */,
 				92051F991E5599FE0042C263 /* TJLActionSheet.h */,
 				92051F9A1E5599FE0042C263 /* TJLActionSheet.m */,
@@ -226,6 +217,7 @@
 		946AC4A71F62773800080D9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */,
 				946AC4A81F62773800080D9B /* black_circle.png */,
 				946AC4A91F62773800080D9B /* black_circle@2x.png */,
 				946AC4AA1F62773800080D9B /* black_circle@3x.png */,
@@ -326,6 +318,7 @@
 				946AC4D31F62773800080D9B /* cancel@2x.png in Resources */,
 				946AC4E31F62773800080D9B /* pull_down@3x.png in Resources */,
 				946AC4DE1F62773800080D9B /* more.png in Resources */,
+				946AC4F11F62A28E00080D9B /* TJLGridCollectionCell.xib in Resources */,
 				946AC4E61F62773800080D9B /* team_red_check@3x.png in Resources */,
 				946AC4E71F62773800080D9B /* white_circle.png in Resources */,
 				946AC4DB1F62773800080D9B /* grey.png in Resources */,
@@ -351,7 +344,6 @@
 				946AC4DC1F62773800080D9B /* grey@2x.png in Resources */,
 				946AC4E41F62773800080D9B /* team_red_check.png in Resources */,
 				92051F601E55579E0042C263 /* Assets.xcassets in Resources */,
-				92051FB51E5599FE0042C263 /* TJLGridCollectionCell.xib in Resources */,
 				92051FAD1E5599FE0042C263 /* TJLActionSheet.bundle in Resources */,
 				946AC4E21F62773800080D9B /* pull_down@2x.png in Resources */,
 				946AC4DD1F62773800080D9B /* grey@3x.png in Resources */,
@@ -371,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92051FB41E5599FE0042C263 /* TJLGridCollectionCell.m in Sources */,
+				946AC4EE1F62A11D00080D9B /* TJLBaseViewController.m in Sources */,
 				92051FAF1E5599FE0042C263 /* TJLAlbumCell.m in Sources */,
 				92051FB21E5599FE0042C263 /* TJLBottomEditView.m in Sources */,
 				92051FB11E5599FE0042C263 /* TJLAlbumsViewController.m in Sources */,
@@ -379,9 +372,8 @@
 				92051FB71E5599FE0042C263 /* TJLImagePickerController.m in Sources */,
 				92051F961E5559380042C263 /* ViewController.m in Sources */,
 				92051FB81E5599FE0042C263 /* TJLPreviewViewController.m in Sources */,
-				92051F701E5558050042C263 /* UIColor+Hex.m in Sources */,
-				92051F6F1E5558050042C263 /* TJLBaseViewController.m in Sources */,
 				92051F581E55579E0042C263 /* AppDelegate.m in Sources */,
+				946AC4EF1F62A11D00080D9B /* UIColor+Hex.m in Sources */,
 				92051FB31E5599FE0042C263 /* TJLCameraViewController.m in Sources */,
 				92051F551E55579E0042C263 /* main.m in Sources */,
 			);
