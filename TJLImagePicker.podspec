@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TJLImagePicker"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "WeChat photo album selection Demo"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ WeChat photo album selection Demo -- TongJialin
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/TongJialin/TJLImagePicker.git", :tag => "0.0.7" }
+  s.source       = { :git => "https://github.com/TongJialin/TJLImagePicker.git", :tag => "0.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

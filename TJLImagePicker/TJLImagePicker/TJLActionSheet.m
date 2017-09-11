@@ -175,8 +175,6 @@
         [titleBgView addSubview:label];
     }
     
-    NSString *bundlePath = [[NSBundle bundleForClass:self.class] pathForResource:@"TJLActionSheet" ofType:@"bundle"];
-    
     if (self.buttonTitles.count) {
         
         for (int i = 0; i < self.buttonTitles.count; i++) {
