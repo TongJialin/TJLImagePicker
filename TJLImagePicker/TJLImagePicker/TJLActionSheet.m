@@ -198,8 +198,8 @@
             }
             [btn setTitleColor:titleColor forState:UIControlStateNormal];
             
-            NSString *linePath = [bundlePath stringByAppendingPathComponent:@"bgImage_HL@2x.png"];
-            UIImage *bgImage = [UIImage imageWithContentsOfFile:linePath];
+            UIImage *bgImage = [UIImage imageNamed:@"bgImage_HL@2x.png"];
+            
             
             [btn setBackgroundImage:bgImage forState:UIControlStateHighlighted];
             [btn addTarget:self action:@selector(didClickBtn:) forControlEvents:UIControlEventTouchUpInside];
@@ -211,8 +211,7 @@
         
         for (int i = 0; i < self.buttonTitles.count; i++) {
             
-            NSString *linePath = [bundlePath stringByAppendingPathComponent:@"cellLine@2x.png"];
-            UIImage *lineImage = [UIImage imageWithContentsOfFile:linePath];
+            UIImage *lineImage = [UIImage imageNamed:@"cellLine@2x.png"];
             
             // 所有线条
             UIImageView *line = [[UIImageView alloc] init];
@@ -224,8 +223,7 @@
         }
     }
     
-    NSString *linePath = [bundlePath stringByAppendingPathComponent:@"bgImage_HL@2x.png"];
-    UIImage *bgImage = [UIImage imageWithContentsOfFile:linePath];
+    UIImage *bgImage = [UIImage imageNamed:@"bgImage_HL@2x.png"];
     
     // 取消按钮
     UIButton *cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];

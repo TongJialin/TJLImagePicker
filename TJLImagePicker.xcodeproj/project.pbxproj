@@ -12,7 +12,6 @@
 		92051F601E55579E0042C263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92051F5F1E55579E0042C263 /* Assets.xcassets */; };
 		92051F631E55579E0042C263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92051F611E55579E0042C263 /* LaunchScreen.storyboard */; };
 		92051F961E5559380042C263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F951E5559380042C263 /* ViewController.m */; };
-		92051FAD1E5599FE0042C263 /* TJLActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92051F981E5599FE0042C263 /* TJLActionSheet.bundle */; };
 		92051FAE1E5599FE0042C263 /* TJLActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F9A1E5599FE0042C263 /* TJLActionSheet.m */; };
 		92051FAF1E5599FE0042C263 /* TJLAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92051F9C1E5599FE0042C263 /* TJLAlbumCell.m */; };
 		92051FB01E5599FE0042C263 /* TJLAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */; };
@@ -59,6 +58,8 @@
 		946AC4EE1F62A11D00080D9B /* TJLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946AC4EB1F62A11D00080D9B /* TJLBaseViewController.m */; };
 		946AC4EF1F62A11D00080D9B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 946AC4ED1F62A11D00080D9B /* UIColor+Hex.m */; };
 		946AC4F11F62A28E00080D9B /* TJLGridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */; };
+		946AC4F41F66323100080D9B /* bgImage_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4F21F66323100080D9B /* bgImage_HL@2x.png */; };
+		946AC4F51F66323100080D9B /* cellLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AC4F31F66323100080D9B /* cellLine@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,12 +72,11 @@
 		92051F641E55579E0042C263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92051F941E5559380042C263 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		92051F951E5559380042C263 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		92051F981E5599FE0042C263 /* TJLActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TJLActionSheet.bundle; path = ../TJLImagePicker/TJLActionSheet.bundle; sourceTree = "<group>"; };
 		92051F991E5599FE0042C263 /* TJLActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLActionSheet.h; sourceTree = "<group>"; };
 		92051F9A1E5599FE0042C263 /* TJLActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLActionSheet.m; sourceTree = "<group>"; };
 		92051F9B1E5599FE0042C263 /* TJLAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLAlbumCell.h; sourceTree = "<group>"; };
 		92051F9C1E5599FE0042C263 /* TJLAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLAlbumCell.m; sourceTree = "<group>"; };
-		92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJLAlbumCell.xib; sourceTree = "<group>"; };
+		92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TJLAlbumCell.xib; path = ../TJLImagePicker/TJLAlbumCell.xib; sourceTree = "<group>"; };
 		92051F9E1E5599FE0042C263 /* TJLAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLAlbumsViewController.h; sourceTree = "<group>"; };
 		92051F9F1E5599FE0042C263 /* TJLAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLAlbumsViewController.m; sourceTree = "<group>"; };
 		92051FA01E5599FE0042C263 /* TJLBottomEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLBottomEditView.h; sourceTree = "<group>"; };
@@ -129,6 +129,8 @@
 		946AC4EC1F62A11D00080D9B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		946AC4ED1F62A11D00080D9B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJLGridCollectionCell.xib; sourceTree = "<group>"; };
+		946AC4F21F66323100080D9B /* bgImage_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgImage_HL@2x.png"; sourceTree = "<group>"; };
+		946AC4F31F66323100080D9B /* cellLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellLine@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +204,6 @@
 				92051FA31E5599FE0042C263 /* TJLCameraViewController.m */,
 				92051F9B1E5599FE0042C263 /* TJLAlbumCell.h */,
 				92051F9C1E5599FE0042C263 /* TJLAlbumCell.m */,
-				92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */,
 				92051FA01E5599FE0042C263 /* TJLBottomEditView.h */,
 				92051FA11E5599FE0042C263 /* TJLBottomEditView.m */,
 				92051FA41E5599FE0042C263 /* TJLGridCollectionCell.h */,
@@ -216,7 +217,9 @@
 		946AC4A71F62773800080D9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				92051F981E5599FE0042C263 /* TJLActionSheet.bundle */,
+				946AC4F21F66323100080D9B /* bgImage_HL@2x.png */,
+				946AC4F31F66323100080D9B /* cellLine@2x.png */,
+				92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */,
 				946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */,
 				946AC4A81F62773800080D9B /* black_circle.png */,
 				946AC4A91F62773800080D9B /* black_circle@2x.png */,
@@ -317,6 +320,7 @@
 				946AC4D81F62773800080D9B /* green.png in Resources */,
 				946AC4D31F62773800080D9B /* cancel@2x.png in Resources */,
 				946AC4E31F62773800080D9B /* pull_down@3x.png in Resources */,
+				946AC4F41F66323100080D9B /* bgImage_HL@2x.png in Resources */,
 				946AC4DE1F62773800080D9B /* more.png in Resources */,
 				946AC4F11F62A28E00080D9B /* TJLGridCollectionCell.xib in Resources */,
 				946AC4E61F62773800080D9B /* team_red_check@3x.png in Resources */,
@@ -344,11 +348,11 @@
 				946AC4DC1F62773800080D9B /* grey@2x.png in Resources */,
 				946AC4E41F62773800080D9B /* team_red_check.png in Resources */,
 				92051F601E55579E0042C263 /* Assets.xcassets in Resources */,
-				92051FAD1E5599FE0042C263 /* TJLActionSheet.bundle in Resources */,
 				946AC4E21F62773800080D9B /* pull_down@2x.png in Resources */,
 				946AC4DD1F62773800080D9B /* grey@3x.png in Resources */,
 				946AC4C91F62773800080D9B /* black_circle.png in Resources */,
 				946AC4CB1F62773800080D9B /* black_circle@3x.png in Resources */,
+				946AC4F51F66323100080D9B /* cellLine@2x.png in Resources */,
 				946AC4D01F62773800080D9B /* button@2x.png in Resources */,
 				946AC4DF1F62773800080D9B /* more@2x.png in Resources */,
 				946AC4E01F62773800080D9B /* more@3x.png in Resources */,
