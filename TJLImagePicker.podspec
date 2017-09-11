@@ -106,7 +106,7 @@ WeChat photo album selection Demo -- TongJialin
   #
 
   # s.resource  = "icon.png"
-s.resources = "TJLImagePicker/Resources/*.{png,xib}"
+s.resources = "TJLImagePicker/Resources/*.{png,xib,bundle}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
