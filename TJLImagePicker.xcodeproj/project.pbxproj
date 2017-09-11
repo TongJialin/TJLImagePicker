@@ -71,7 +71,7 @@
 		92051F641E55579E0042C263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92051F941E5559380042C263 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		92051F951E5559380042C263 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		92051F981E5599FE0042C263 /* TJLActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TJLActionSheet.bundle; sourceTree = "<group>"; };
+		92051F981E5599FE0042C263 /* TJLActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TJLActionSheet.bundle; path = ../TJLImagePicker/TJLActionSheet.bundle; sourceTree = "<group>"; };
 		92051F991E5599FE0042C263 /* TJLActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLActionSheet.h; sourceTree = "<group>"; };
 		92051F9A1E5599FE0042C263 /* TJLActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLActionSheet.m; sourceTree = "<group>"; };
 		92051F9B1E5599FE0042C263 /* TJLAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLAlbumCell.h; sourceTree = "<group>"; };
@@ -207,7 +207,6 @@
 				92051FA11E5599FE0042C263 /* TJLBottomEditView.m */,
 				92051FA41E5599FE0042C263 /* TJLGridCollectionCell.h */,
 				92051FA51E5599FE0042C263 /* TJLGridCollectionCell.m */,
-				92051F981E5599FE0042C263 /* TJLActionSheet.bundle */,
 				92051F991E5599FE0042C263 /* TJLActionSheet.h */,
 				92051F9A1E5599FE0042C263 /* TJLActionSheet.m */,
 			);
@@ -217,6 +216,7 @@
 		946AC4A71F62773800080D9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92051F981E5599FE0042C263 /* TJLActionSheet.bundle */,
 				946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */,
 				946AC4A81F62773800080D9B /* black_circle.png */,
 				946AC4A91F62773800080D9B /* black_circle@2x.png */,
