@@ -217,9 +217,9 @@
 		946AC4A71F62773800080D9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */,
 				946AC4F21F66323100080D9B /* bgImage_HL@2x.png */,
 				946AC4F31F66323100080D9B /* cellLine@2x.png */,
-				92051F9D1E5599FE0042C263 /* TJLAlbumCell.xib */,
 				946AC4F01F62A28E00080D9B /* TJLGridCollectionCell.xib */,
 				946AC4A81F62773800080D9B /* black_circle.png */,
 				946AC4A91F62773800080D9B /* black_circle@2x.png */,
