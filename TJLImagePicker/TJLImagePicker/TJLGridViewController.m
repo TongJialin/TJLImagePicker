@@ -137,8 +137,9 @@ static CGSize kCollectionPhotoItemSize;
 
 - (void)didSelectItemAssetsViewCell:(TJLGridCollectionCell *)assetsCell {
     
-    if (self.selectIndexArray.count == 9) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"你最多只能选择9张照片" message:nil delegate:self cancelButtonTitle:@"我知道了" otherButtonTitles:nil, nil];
+    if (self.selectIndexArray.count == self.total) {
+        NSString *alertString = [NSString stringWithFormat:@"你最多只能选择%ld张照片",self.total];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:alertString message:nil delegate:self cancelButtonTitle:@"我知道了" otherButtonTitles:nil, nil];
         [alert show];
         [assetsCell reduceCheckImage];
     } else {

@@ -69,7 +69,7 @@ static CGSize kCollectionPhotoItemSize;
                 [weakSelf.collectionView reloadData];
             }];
         } else if (buttonIndex == 1) {
-            [[TJLImagePickerController sharedInstance] showPickerInController:self successBlock:^(NSArray *imageArray) {
+            [[TJLImagePickerController sharedInstance] showPickerInController:self total:1 successBlock:^(NSArray *imageArray) {
                 weakSelf.imageArray = imageArray;
                 [weakSelf.collectionView reloadData];
             }];

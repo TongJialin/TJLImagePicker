@@ -108,6 +108,11 @@ static TJLImagePickerController *helper;
 
 - (void)showPickerInController:(UIViewController *)vc successBlock:(TJLPicPickerSuccessedHanlder)succeedHandler {
     
+    [self showPickerInController:vc total:9 successBlock:succeedHandler];
+}
+
+- (void)showPickerInController:(UIViewController *)vc total:(NSInteger)total successBlock:(TJLPicPickerSuccessedHanlder)succeedHandler {
+    
     //检查是否有相册访问权限
     switch ([PHPhotoLibrary authorizationStatus]) {
         case PHAuthorizationStatusNotDetermined:
@@ -118,7 +123,7 @@ static TJLImagePickerController *helper;
                         
                         self.successedHandler = succeedHandler;
                         
-                        [self setupPickerNavigationController:vc];
+                        [self setupPickerNavigationController:vc tatal:total];
                         
                     } else {
                         [self photoAlertView];
@@ -131,7 +136,7 @@ static TJLImagePickerController *helper;
         {
             self.successedHandler = succeedHandler;
             
-            [self setupPickerNavigationController:vc];
+            [self setupPickerNavigationController:vc tatal:total];
         }
             break;
             
@@ -160,12 +165,13 @@ static TJLImagePickerController *helper;
     }
 }
 
-- (void)setupPickerNavigationController:(UIViewController *)vc {
+- (void)setupPickerNavigationController:(UIViewController *)vc tatal:(NSInteger)total {
     
     [vc.navigationController presentViewController:self animated:YES completion:nil];
     
     TJLAlbumsViewController *albumsViewController = [[TJLAlbumsViewController alloc] init];
     TJLGridViewController *gridViewController = [[TJLGridViewController alloc] init];
+    gridViewController.total = total;
     [self setViewControllers:@[albumsViewController, gridViewController]];
 }
 

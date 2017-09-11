@@ -20,4 +20,6 @@ typedef void(^TJLTakePhotoSuccessedHanlder)(UIImage *image);
 
 - (void)showCameraInController:(UIViewController *)vc successBlock:(TJLTakePhotoSuccessedHanlder)succeedHandler;
 
+- (void)showPickerInController:(UIViewController *)vc total:(NSInteger)total successBlock:(TJLPicPickerSuccessedHanlder)succeedHandler;
+
 @end

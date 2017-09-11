@@ -16,4 +16,6 @@
 
 @property (strong, nonatomic) PHFetchResult *assetsFetchResults;
 
+@property (assign, nonatomic) NSInteger total;
+
 @end
