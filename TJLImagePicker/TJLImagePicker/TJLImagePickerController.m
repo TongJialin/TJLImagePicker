@@ -167,7 +167,7 @@ static TJLImagePickerController *helper;
 
 - (void)setupPickerNavigationController:(UIViewController *)vc tatal:(NSInteger)total {
     
-    [vc.navigationController presentViewController:self animated:YES completion:nil];
+    [vc presentViewController:self animated:YES completion:nil];
     
     TJLAlbumsViewController *albumsViewController = [[TJLAlbumsViewController alloc] init];
     TJLGridViewController *gridViewController = [[TJLGridViewController alloc] init];
@@ -177,7 +177,7 @@ static TJLImagePickerController *helper;
 
 - (void)setupCameraNavigationController:(UIViewController *)vc {
     
-    [vc.navigationController presentViewController:self animated:YES completion:nil];
+    [vc presentViewController:self animated:YES completion:nil];
     
     TJLCameraViewController *cameraViewController = [[TJLCameraViewController alloc] init];
     [self setViewControllers:@[cameraViewController]];

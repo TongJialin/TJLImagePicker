@@ -14,29 +14,21 @@
 
 @implementation TJLBaseViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setNavigationBarStatus];
-    
-//    UIBarButtonItem *backbutton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
-//    self.navigationItem.backBarButtonItem = backbutton;
 }
 
 - (void)setNavigationBarStatus {
-    UINavigationBar *ngBar = [UINavigationBar appearance];
+    self.navigationController.navigationBar.barTintColor = [UIColor darkTextColor];;
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
     
-    ngBar.barTintColor = [UIColor darkTextColor];;
-    ngBar.tintColor = [UIColor whiteColor];
-    ngBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
-    
-    ngBar.topItem.title = @"";
-//    [ngBar setShadowImage:[OMAUtil imageWithColor:OMACOLOR_THEME_ORANGE]];
+    self.navigationController.navigationBar.topItem.title = @"";
 }
 
 - (void)setupTitle:(NSString *)title {
-    
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 140, 44.0)];
     label.font = [UIFont boldSystemFontOfSize:18];
     label.textColor = [UIColor whiteColor];

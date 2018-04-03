@@ -8,7 +8,7 @@
 
 #import "TJLBaseViewController.h"
 
-@interface ViewController : TJLBaseViewController
+@interface ViewController : UIViewController
 
 
 @end

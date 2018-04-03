@@ -44,7 +44,7 @@ static CGSize kCollectionPhotoItemSize;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupTitle:@"主页"];
+    [self setTitle:@"主页"];
     [self addPhotoButton];
     [self setCollectionViewDetail];
 }
