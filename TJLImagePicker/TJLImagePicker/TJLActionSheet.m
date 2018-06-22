@@ -19,6 +19,12 @@
 
 #define OMA_DEFAULT_BACKGROUND_OPACITY 0.4f
 
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define is_iPhoneX (WIDTH == 375.f && HEIGHT == 812.f)
+
 @interface TJLActionSheet ()
 
 /** 所有按钮 */
@@ -234,10 +240,10 @@
     [cancelBtn addTarget:self action:@selector(didClickCancelBtn) forControlEvents:UIControlEventTouchUpInside];
     
     CGFloat btnY = BUTTON_H * (self.buttonTitles.count + (self.title ? 1 : 0)) + 10.0f;
-    [cancelBtn setFrame:CGRectMake(0, btnY, SCREEN_SIZE.width, BUTTON_H)];
+    [cancelBtn setFrame:CGRectMake(0, btnY, SCREEN_SIZE.width, BUTTON_H + (is_iPhoneX ? 34 : 0))];
     [bottomView addSubview:cancelBtn];
     
-    CGFloat bottomH = (self.title ? BUTTON_H : 0) + BUTTON_H * self.buttonTitles.count + BUTTON_H + 5.0f;
+    CGFloat bottomH = (self.title ? BUTTON_H : 0) + BUTTON_H * self.buttonTitles.count + BUTTON_H + 5.0f + (is_iPhoneX ? 34 : 0);
     [bottomView setFrame:CGRectMake(0, SCREEN_SIZE.height, SCREEN_SIZE.width, bottomH)];
     
     [self setFrame:(CGRect){0, 0, SCREEN_SIZE}];
