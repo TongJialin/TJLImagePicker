@@ -11,4 +11,6 @@
 
 @interface TJLAlbumsViewController : TJLBaseViewController
 
+@property (assign, nonatomic) NSInteger total;
+
 @end

@@ -205,6 +205,7 @@ static int kAlbumRowHeight = 56;
     TJLGridViewController *gridViewController = [[TJLGridViewController alloc] init];
     gridViewController.navTitle = self.smartFetchResultTitlt[indexPath.row];
     gridViewController.assetsFetchResults = self.smartFetchResultArray[indexPath.row];
+    gridViewController.total = self.total;
     [self.navigationController pushViewController:gridViewController animated:YES];
 }
 

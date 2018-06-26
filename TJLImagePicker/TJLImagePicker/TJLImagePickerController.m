@@ -170,6 +170,7 @@ static TJLImagePickerController *helper;
     [vc presentViewController:self animated:YES completion:nil];
     
     TJLAlbumsViewController *albumsViewController = [[TJLAlbumsViewController alloc] init];
+    albumsViewController.total = total;
     TJLGridViewController *gridViewController = [[TJLGridViewController alloc] init];
     gridViewController.total = total;
     [self setViewControllers:@[albumsViewController, gridViewController]];
